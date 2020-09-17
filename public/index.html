@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>TpNode04</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size:2em;
+      
+    }
+    
+    nav{
+      background-color: #D7FAF9;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    .contenedor{
+      margin-left: 10px;
+      margin-right: 100px;
+
+          }
+    
+    .abajo{
+      margin-left: 10px;
+    }
+
+    button{
+      background-color: #262626; 
+      color: #D7FAF9;
+    }
+    a{
+      color: black;
+    }
+
+    
+  
+   
+   
+    
+     footer {
+      background-color: #262626;
+      color: white;
+      padding: 15px;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+    
+    
+
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">TpNode04</a>
+    
+  </nav>
+
+  <div class="contenedor">
+  <p> Hacer un formulario HTML que solicite ingresar 1 (un número) que representará el número de
+líneas que debe tener la figura.
+A continuación el programa debe mostrar la figura con ese número de líneas.
+Tener en cuenta que la solución que propongas debe contener sentencias de salida por
+pantalla en las que se impriman exclusivamente uno solo de los siguientes caracteres:
+blanco ‘ ‘, asterisco ‘*’ o la letra ‘o’.</p>
+<br>
+
+  </div>
+  <div class="abajo">
+
+  <form action="recuperardatos" method="post">
+
+  Ingrese cantidad de filas:
+
+  <input type="text" name="numerodefilas" size="30"><br>
+  <br>
+
+  
+  <button class="btn btn-dark" type="submit" value="Enviar">Enviar</button>
+  
+ 
+
+</form>
+<br>
+<br>
+<br>
+</div>
+<footer class="container-fluid text-center">
+  <p>Copyright © 2020-2021  Hecho por Axel.</p>
+</footer>
+</body>
+
+</html>
